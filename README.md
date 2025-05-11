@@ -9,21 +9,9 @@ local Notify = Notification.Notify;
 How to make a notification with Nameless Admin Notification Library:
 ```lua
 Notify({
-		 Description = "Notification Content";
-		 Title = "Notification Title";
-		 Duration = 5;
-		 
-});
-```
-Completed code for people that can't do so:
-```lua
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/notificationtest"))();
-local Notify = Notification.Notify;
-
-Notify({
-		 Description = "Notification Content";
-		 Title = "Notification Title";
-		 Duration = 5;
+		 Description = "Example Notification Content";
+		 Title = "Example Notification Title";
+		 Duration = Duration;
 		 
 });
 ```
@@ -34,13 +22,7 @@ local notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu12
 ```
 How to make a notification with Hoho Hub Notification Library:
 ```lua
-notify.New("Notification Content", 30) 
-```
-Completed code for people can't do so:
-```lua
-local notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
-
-notify.New("Notification Content", 30)
+notify.New("Example Notification Content", Duration) 
 ```
 # (New Library!) Notification Library (by IceMinisterq on GitHub)
 Code for loading the library:
@@ -56,8 +38,7 @@ Warning
 Error
 Info
 ]]
-NotificationLibrary:SendNotification("Theme", "I'm a cool message", 3)
---NotificationLibrary:SendNotification(Theme, Message, Duration)
+NotificationLibrary:SendNotification("Theme", "Example Message", Duration)
 ```
 > [!NOTE]
 > I was going to include Rayfield's Notification Library, but I was kinda lazy. Also, more librarys are coming soon!
