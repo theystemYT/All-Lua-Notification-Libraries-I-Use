@@ -56,7 +56,8 @@ Warning
 Error
 Info
 ]]
-NotificationLibrary:SendNotification
+NotificationLibrary:SendNotification("Theme", "I'm a cool message", 3)
+--NotificationLibrary:SendNotification(Theme, Message, Duration)
 ```
 > [!NOTE]
 > I was going to include Rayfield's Notification Library, but I was kinda lazy. Also, more librarys are coming soon!
