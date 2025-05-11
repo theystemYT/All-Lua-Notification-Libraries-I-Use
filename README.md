@@ -1,4 +1,4 @@
-# Notification Librarys I Use:
+# All Lua Notification Libraries I Use
 
 # Nameless Admin Notification Library
 Code for loading the library:
