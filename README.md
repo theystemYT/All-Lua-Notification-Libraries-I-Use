@@ -1,2 +1,44 @@
-[![Mentioned in Awesome <Cooled>](https://awesome.re/mentioned-badge.svg)](https://github.com/<INSERT LIST URL>)
-[![Mentioned in Awesome fryed>](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/<INSERT LIST URL>)
+# All Lua Notification Libraries I Use
+
+# Nameless Admin Notification Library
+Code for loading the library:
+```lua
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/notificationtest"))();
+local Notify = Notification.Notify;
+```
+How to make a notification with Nameless Admin Notification Library:
+```lua
+Notify({
+		 Description = "Example Notification Content";
+		 Title = "Example Notification Title";
+		 Duration = Duration;
+		 
+});
+```
+# Hoho Hub Notification Library
+Code for loading the library:
+```lua
+local notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
+```
+How to make a notification with Hoho Hub Notification Library:
+```lua
+notify.New("Example Notification Content", Duration) 
+```
+# (New Library!) Notification Library (by IceMinisterq on GitHub)
+Code for loading the library:
+```lua
+local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))()
+```
+How to make a notification with Notification Library:
+```lua
+--[[
+Themes:
+Success
+Warning
+Error
+Info
+]]
+NotificationLibrary:SendNotification("Theme", "Example Message", Duration)
+```
+> [!NOTE]
+> I was going to include Rayfield's Notification Library, but I was kinda lazy. Also, more librarys are coming soon!
