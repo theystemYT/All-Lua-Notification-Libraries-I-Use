@@ -29,16 +29,16 @@ Code for loading the library:
 ```lua
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))()
 ```
-How to make a notification with Notification Library:
+How to make a notification with 
+Notification Library:
 ```lua
---[[
+NotificationLibrary:SendNotification("Theme", "Example Message", Duration)
+```
 Themes:
 Success
 Warning
 Error
 Info
-]]
-NotificationLibrary:SendNotification("Theme", "Example Message", Duration)
-```
+
 > [!NOTE]
 > I was going to include Rayfield's Notification Library, but I was kinda lazy. Also, more librarys are coming soon!
