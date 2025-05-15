@@ -39,6 +39,3 @@ Success
 Warning
 Error
 Info
-
-> [!NOTE]
-> I was going to include Rayfield's Notification Library, but I was kinda lazy. Also, more librarys are coming soon!
