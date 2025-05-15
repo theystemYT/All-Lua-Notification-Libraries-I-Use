@@ -1,3 +1,5 @@
+> [!NOTE]
+> If (New Library) is added in a notification library name, that means it was just added here. More librarys are coming soon!
 # All Lua Notification Libraries I Use
 
 # Nameless Admin Notification Library
@@ -24,7 +26,7 @@ How to make a notification with Hoho Hub Notification Library:
 ```lua
 notify.New("Example Notification Content", Duration) 
 ```
-# (New Library!) Notification Library (by IceMinisterq on GitHub)
+# (New Library) Notification Library (by IceMinisterq on GitHub)
 Code for loading the library:
 ```lua
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))()
