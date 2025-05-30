@@ -11,7 +11,7 @@ local Notify = Notification.Notify;
 How to make a notification with Nameless Admin Notification Library:
 ```lua
 Notify({
-		 Description = "Example Notification Content";
+		 Description = "Example Notification Description";
 		 Title = "Example Notification Title";
 		 Duration = Duration;
 		 
