@@ -11,8 +11,8 @@ local Notify = Notification.Notify;
 How to make a notification with Nameless Admin Notification Library:
 ```lua
 Notify({
-		 Description = "Example Notification Description";
-		 Title = "Example Notification Title";
+		 Description = "Example Description";
+		 Title = "Example Title";
 		 Duration = Duration;
 		 
 });
@@ -24,7 +24,7 @@ local notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu12
 ```
 How to make a notification with Hoho Hub Notification Library:
 ```lua
-notify.New("Example Notification Content", Duration) 
+notify.New("Example Content", Duration) 
 ```
 # (New Library) Notification Library (by IceMinisterq on GitHub)
 Code for loading the library:
